@@ -1,69 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-    <link rel="stylesheet" href="x.css">
+    <title>Escuela de Código</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <!--Encabezados-->
-<header>
-    <h1 class="fuente"> Escuela de codigo</h1>
-    <nav>
-        <a href="index.html">INICIO</a>
-        <a href="https://www.disneyplus.com/es-419/home" target="_blank">Sobre nosotros</a>
-        <a href="">Proyectos</a>
-        <a href="">Contacto</a>
-    </nav>
-</header>
-<main>
-    <h2 class="colorGreen">Sobre norotros</h2>
-    <h3>Biografia</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perferendis repellat placeat quis rerum ducimus ratione cumque, illo, consequatur eaque assumenda officiis commodi recusandae quos atque non asperiores magnam neque?</p>
-    <h3>Intereses</h3>
-    <ul>
-        <li>Tecnologia</li>
-        <li>Edu</li>
-        <li>Inclu</li>
-    </ul>
-    <h2>Contacto</h2>
-    <form action="">
-        <div class="colorGreen">
-            <label for="">Nombre completo</label> <br>
-            <input type="text">
-        </div>
-        <div>
-            <label for="">Correo</label> <br>
-            <input type="email" name="" id=""></textarea>
-        </div>
-        <div>
-            <label for="">Mensaje</label><br>
-            <textarea name="" id=""></textarea>
-        </div>
-        <div>
-                <label for="">Genero</label><br>
-                <textarea name="radio" name="" id="">
-                <label for="">Masculino</label>
 
-             <input type="radio" name="" id="">
-                <label for="">Femenino</label>
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                <input type="radio" name="" id="">
-                <label for="">Otro</label>
+    <!-- Sección principal -->
+    <main>
+
+        <!-- Información -->
+        <section class="presentacion">
+            <h1>Escuela de Código</h1>
+
+            <p>
+                El objetivo de Escuela de Código es que el estudiantado aplique las habilidades,
+                conocimientos y destrezas adquiridas en la resolución de problemas tecnológicos,
+                en desarrollo y programación, con el propósito de poder integrarse a un campo
+                laboral competente, como puede ser en los sistemas automatizados de Instituciones
+                públicas o privadas y que les permita mejorar su calidad de vida y la de su
+                comunidad.
+            </p>
+        </section>
+
+        <!-- Sitios de interés -->
+        <section class="interes">
+            <h2>Sitios de interés</h2>
+
+            <div class="contenedor-tarjetas">
+
+                <article class="tarjeta">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800"
+                        alt="Cursos">
+                    <h3>Cursos</h3>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800"
+                        alt="Egresados">
+                    <h3>Egresados</h3>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800"
+                        alt="Eventos">
+                    <h3>Eventos</h3>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+                        alt="Bolsa de talento">
+                    <h3>Bolsa de talento</h3>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Logo_ADIP_CDMX.png"
+                        alt="ADIP">
+                    <h3>La Agencia Digital de Innovación Pública</h3>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Llave_CDMX.png"
+                        alt="Llave CDMX">
+                    <h3>Llave CDMX</h3>
+                </article>
+
             </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <label for="">Acepto tyc</label>
-             </div>
-            <div>
-            <input type="submit" value="Enviar">
-            </div>
-            </form>
-        </main>
-        <footer>
-        <small>Derechos reservados</small>
-        </footer>
-        </body>
-        </html>
+        </section>
+
+    </main>
+
+</body>
+</html>
